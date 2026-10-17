@@ -1,0 +1,20 @@
+# keys and local project state
+.env
+.env.*
+!.env.example
+.projects/
+
+# generated when the demo runs
+__pycache__/
+*.pyc
+report_*.json
+sealed_*.json
+bundle*.tar
+secrets/
+workspace/
+
+# personal notes and scratch
+notes/
+*.notes.md
+scratch/
+*.log
